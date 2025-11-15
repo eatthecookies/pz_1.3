@@ -6,5 +6,4 @@
 
 ## Ссылки
 
-- [Публичная страница на GitHub Pages](https://ВАШ*ЛОГИН.github.io/
-  ИМЯ*РЕПОЗИТОРИЯ/)
+- [Публичная страница на GitHub Pages](https://eatthecookies.github.io/pz_1.3/)
