@@ -14,6 +14,9 @@
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="styles/mobile.css" media="screen and (max-width:
+1024px)">
+
 </head>
 
 <body>
@@ -27,12 +30,22 @@
             <div class="header__actions">
                 <img class="header__icon" src="assets/icons/shopping-cart.png" alt="Корзина">
                 <img class="header__icon" src="assets/icons/user.png" alt="Профиль">
+                <button class="header__menu-toggle" id="menuToggle">
+                    <span class="header__menu-toggle-line"></span>
+                    <span class="header__menu-toggle-line"></span>
+                    <span class="header__menu-toggle-line"></span>
+                </button>
             </div>
         </div>
 
         <nav class="header__nav">
+            <button class="header__menu-close" id="menuClose">
+                <span class="header__menu-close-line"></span>
+                <span class="header__menu-close-line"></span>
+            </button>
             <ul class="header__navigation-list">
-                <li class="header__navigation-item"><a class="header__navigation-link" href="#features">Что отличает наш
+                <li class="header__navigation-item"><a class="header__navigation-link" href="#features">Что
+                        отличает наш
                         бренд</a></li>
                 <li class="header__navigation-item"><a class="header__navigation-link" href="#ceramics">Керамика</a>
                 </li>
@@ -40,7 +53,8 @@
                         товары</a></li>
                 <li class="header__navigation-item"><a class="header__navigation-link" href="#newsletter">Рассылка</a>
                 </li>
-                <li class="header__navigation-item"><a class="header__navigation-link" href="#about">О нас</a></li>
+                <li class="header__navigation-item"><a class="header__navigation-link" href="#about">О нас</a>
+                </li>
             </ul>
         </nav>
     </header>
@@ -239,6 +253,11 @@
             </div>
         </div>
     </footer>
+    
+    <button class="scroll-top" id="scrollTop">
+        ↑
+    </button>
+    <script src="scripts/menu.js"></script>
 </body>
 
 </html>
