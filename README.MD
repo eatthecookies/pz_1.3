@@ -8,3 +8,5 @@
 
 - [Публичная страница на GitHub Pages](https://ВАШ*ЛОГИН.github.io/
   ИМЯ*РЕПОЗИТОРИЯ/)
+
+![QR](qr-code.png)
