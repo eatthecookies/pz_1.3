@@ -7,3 +7,5 @@
 ## Ссылки
 
 - [Публичная страница на GitHub Pages](https://eatthecookies.github.io/pz_1.3/)
+
+![QR](qr-code.png)
